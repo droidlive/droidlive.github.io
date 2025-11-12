@@ -5,7 +5,6 @@
 <meta charset="UTF-8">
 <title>Bugün TV’de Hangi Maç Var?</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <style>
     body {
         margin: 0;
@@ -14,11 +13,9 @@
         font-family: "Roboto", Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
     }
-
-    /* --- SABİT HEADER --- */
     .header {
-    	color: #F1F1F1;
-        margin: 0px;
+        color: #F1F1F1;
+        margin: 0;
         background: #212121;
         padding: 22px 15px;
         font-size: 18px;
@@ -26,14 +23,10 @@
         text-align: center;
         border-bottom: 0.3px solid #fff;
     }
-
-    /* --- İÇERİK (SCROLL) --- */
     .content {
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
     }
-
-    /* --- MAÇ KUTUSU --- */
     .match-item {
         display: flex;
         background: #303030;
@@ -42,8 +35,6 @@
         gap: 12px;
         border-bottom: 0.3px solid #fff;
     }
-
-
     .match-icon {
         width: 55px;
         min-width: 55px;
@@ -51,24 +42,21 @@
         object-fit: cover;
         background: #3b3b3b;
     }
-
     .info-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 100%;
     }
-
     .match-title {
-    	color: #D0D4DA;
+        color: #D0D4DA;
         font-size: 14px;
         font-weight: 440;
         margin-bottom: 6px;
         line-height: 1.25;
     }
-
     .match-meta {
-    	color: #D0D4DA;
+        color: #D0D4DA;
         font-size: 12px;
         opacity: 0.85;
         display: flex;
@@ -79,10 +67,15 @@
 </head>
 
 <body>
-
 <div class="header">Bugün TV’de Hangi Maç Var?</div>
 <div class="content">
 
+    <div class="match-item">
+        <img class="match-icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxftliIT_GwiQwQ3H-vL9Qmr4FCKjpJkFV_c7D94eCqKR-_mzQJ_qUFUly9jLgBrfZrHxHFszP9PsprPUqLsMK4Syj2Xq5T93KkwA2aUEepaqqJr9XsFNIG7pcfRtheBFXaaHhVO_b71B5muPt9-sP69XnlFsPbOutkBBj1teefOogbe3xyv6EPnUiX8Y/s1600/IMG_20250128_154152.png" />
+        <div class="info-box">
+            <div class="match-title">Bugün TV'de yayınlanacak önemli bir maç yok!</div>
+        </div>
+    </div>
 </div>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"655bd519d7434d5d94d04e2065d55968","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
